@@ -14,4 +14,4 @@ class MyActor(Actor):
 
 
 print(list(filter(lambda i:not(i.startswith('__') or i.startswith('_')),dir(MyActor))))
-#actor = MyActor('ironman', (100,100), speed=5)
+#actor = MyActor('ironman', (100,100), speed=5) 
